@@ -1,3 +1,8 @@
+import Navbar1 from "@/components/navigation/Nav1";
+import Navbar2 from "@/components/navigation/Nav2";
+import Navbar3 from "@/components/navigation/Nav3";
+import NavList from "@/components/navigation/NavList";
+import NavListItem from "@/components/navigation/NavListItem";
 import Head from "next/head";
 
 export default function Home() {
@@ -9,7 +14,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main></main>
+      <main>
+        <Navbar1 />
+        <Navbar2 />
+        <Navbar3 />
+      </main>
     </>
   );
 }

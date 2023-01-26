@@ -1,0 +1,28 @@
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__container {
+  background-color: #f4f4f4;
+}
+.nav__category {
+  padding: 1.45rem;
+  background-color: #eda415;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.nav__category:hover {
+  cursor: pointer;
+}
+
+.free_return {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #003f62;
+}
