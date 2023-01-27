@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 30.49px;
+}
+
+.card {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 37.37px;
+  isolation: isolate;
+
+  width: 308.83px;
+  height: 313.75px;
+
+  border: 0.983537px solid #b6b6b6;
+  border-radius: 19.6707px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.button_group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20.65px;
+
+  width: 296.04px;
+  height: 60px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 25.572px;
+  gap: 4.92px;
+  isolation: isolate;
+  background: #87bcd9;
+  border-radius: 19.6707px;
+  justify-content: space-between;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15.7366px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #272727;
+}

@@ -9,3 +9,22 @@ body {
 p {
   font-size: 1.4rem;
 }
+
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 43px;
+  line-height: 64px;
+
+  color: #1b5a7d;
+}
+h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27.38px;
+  line-height: 41px;
+  /* identical to box height */
+
+  color: #1b5a7d;
+}

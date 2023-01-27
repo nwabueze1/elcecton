@@ -1,9 +1,15 @@
+import Block from "@/components/Block";
+import Container from "@/components/Container";
+import Hero from "@/components/Hero";
 import Navbar1 from "@/components/navigation/Nav1";
 import Navbar2 from "@/components/navigation/Nav2";
 import Navbar3 from "@/components/navigation/Nav3";
 import NavList from "@/components/navigation/NavList";
 import NavListItem from "@/components/navigation/NavListItem";
+import PopularProducts from "@/components/PopularProducts";
+import ShowCaseContainer from "@/components/ShowCaseContainer";
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -18,6 +24,18 @@ export default function Home() {
         <Navbar1 />
         <Navbar2 />
         <Navbar3 />
+        <Container>
+          <Block>
+            <Hero />
+          </Block>
+          <Block>
+            <ShowCaseContainer />
+          </Block>
+          <Block>
+            <h4>Popular products</h4>
+            <PopularProducts />
+          </Block>
+        </Container>
       </main>
     </>
   );
